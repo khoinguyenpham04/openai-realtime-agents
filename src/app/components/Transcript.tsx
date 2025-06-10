@@ -210,7 +210,7 @@ function Transcript({
         </div>
       </div>
 
-      <div className="p-4 flex items-center gap-x-2 flex-shrink-0 border-t border-gray-200">
+      <div className="p-4 flex items-center gap-x-2 shrink-0 border-t border-gray-200">
         <input
           ref={inputRef}
           type="text"
@@ -221,7 +221,7 @@ function Transcript({
               onSendMessage();
             }
           }}
-          className="flex-1 px-4 py-2 focus:outline-none"
+          className="flex-1 px-4 py-2 focus:outline-hidden"
           placeholder="Type a message..."
         />
         <button
